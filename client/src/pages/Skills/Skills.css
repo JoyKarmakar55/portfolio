@@ -1,0 +1,34 @@
+.skills h1{
+    width: 178px;
+    margin: 50px auto;
+    color: rgb(120,120,120);
+    font-family: cursive;
+    border-bottom: 2px solid rgb(120,120,120);
+    font-size: xxx-large;
+}
+.skills h2{
+    color: rgb(120,120,120);
+    font-family: cursive;
+    font-size: xx-large;
+    margin-bottom: 30px;
+    text-align: justify !important;
+}
+.skillcards .card{
+    cursor: pointer;
+    background: rgb(201,193,255);
+    color: white;
+    background: linear-gradient(90deg, rgb(193, 234, 255) 0%, rgb(112, 112, 227) 44%, rgb(129, 162, 182) 100%);
+}
+.skillcards .card .skill-icon{
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.skillcards .card:hover{
+    color: black;
+    box-shadow: rgba(28, 28, 28, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background: rgb(201,193,255);
+    background: linear-gradient(90deg, rgb(209, 240, 255) 0%, rgb(138, 138, 221) 44%, rgb(118, 94, 255) 100%);
+    transition: 500ms;
+    
+}

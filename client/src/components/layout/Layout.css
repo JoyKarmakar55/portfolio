@@ -1,0 +1,31 @@
+.sidebar-section{
+    display: flex;
+}
+
+.sidebar{
+    height: auto;
+    background: rgb(138,133,168);
+    background: linear-gradient(180deg, rgb(20, 42, 141) 0%, rgb(126, 182, 255) 35%, rgb(20, 42, 141) 100%);
+    width: 80px;
+    
+}
+
+.sidebar-toggle{
+    height: auto;
+    background: rgb(138,133,168);
+    background: linear-gradient(180deg, rgb(20, 42, 141) 0%, rgb(126, 182, 255) 35%, rgb(20, 42, 141) 100%);
+    width: 300px;
+    /* position: fixed; */
+}
+
+.sidebar-toggle-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sidebar-toggle-icons p svg{
+    color: rgb(205, 248, 255);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
