@@ -3,7 +3,7 @@ import "./About.css";
 const About = () => {
   return (
     <>
-      <div className="about">
+      <div className="container-fuild about mt-4" id ="about">
         <div className="row">
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 about-pic">
             <img className="img-fluid" src="DP2.jpg" alt="DP"></img>

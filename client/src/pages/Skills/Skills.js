@@ -2,10 +2,10 @@ import React from "react";
 import "./Skills.css";
 import { SkillList } from "../../utilities/SkillList";
 
-const Skills = () => {
+export const Skills = () => {
   return (
     <>
-      <div className="container-fluid skills text-center">
+      <div className="container-fluid skills text-center" id="skills">
         <h1 className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">SKILLS</h1>
         <h2 className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">🧑🏻‍💻Includes Programming Languages, Fameworks, Databases, Front End and Back End tools and APIs.</h2>
       </div>

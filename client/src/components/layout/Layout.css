@@ -1,17 +1,22 @@
+
+
+
+
 .sidebar-section{
     display: flex;
 }
 
 .sidebar{
-    height: auto;
+    height:inherit;
     background: rgb(138,133,168);
     background: linear-gradient(180deg, rgb(20, 42, 141) 0%, rgb(126, 182, 255) 35%, rgb(20, 42, 141) 100%);
     width: 80px;
     
+    
 }
 
 .sidebar-toggle{
-    height: auto;
+    height:auto;
     background: rgb(138,133,168);
     background: linear-gradient(180deg, rgb(20, 42, 141) 0%, rgb(126, 182, 255) 35%, rgb(20, 42, 141) 100%);
     width: 300px;
@@ -29,3 +34,5 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+

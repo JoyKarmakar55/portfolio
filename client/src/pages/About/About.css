@@ -1,7 +1,8 @@
 .about{
-    margin: 20px 20px;
+    margin: 12px 12px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 15px;
+    background-color: #DFE7FD;
 }
 .about-pic img{
     border-radius: 12px;
@@ -18,7 +19,7 @@
     border-radius: 12px;
 }
 .about-content h1{
-    color: rgb(120, 120, 120);
+    color:  #36454F;
     font-family: cursive;
     border-bottom: 2px solid rgb(120, 120, 120);
     font-size: xxx-large;

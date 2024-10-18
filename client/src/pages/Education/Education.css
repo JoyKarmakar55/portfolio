@@ -1,0 +1,21 @@
+.educationh1{
+    width: 258px;
+    margin: 50px auto;
+    color:  #36454F;
+    font-family: cursive;
+    border-bottom: 2px solid rgb(120,120,120);
+    font-size: xxx-large;
+    
+    
+}
+
+.education{
+    background-color: #DDD3FA;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.head{
+    color:  rgb(108, 17, 111);
+}

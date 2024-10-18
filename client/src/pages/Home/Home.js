@@ -3,10 +3,10 @@ import "./Home.css";
 import Typewriter from "typewriter-effect";
 import Resume from '../../Assets/Docs/JOY KARMAKAR_CSE(DS)_2024_.pdf'
 
-const Home = () => {
+export const Home = () => {
   return (
     <>
-      <div className="container-fluid home-container">
+      <div className="container-fluid home-container" id="home" >
         <div className="container-fluid home-content">
         <h1>Hello 👋🏻 I'm Joy Karmakar</h1>
           <h1>I'm a dedicated</h1>

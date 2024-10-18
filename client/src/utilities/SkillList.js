@@ -16,7 +16,7 @@ import {
   SiMongodb,
   SiMysql,
 //   SiTypescript,
-  SiGithub,
+  // SiGithub,
 //   SiWordpress,
 //   SiFirebase,
 //   SiDocker,

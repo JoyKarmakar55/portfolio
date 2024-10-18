@@ -1,0 +1,92 @@
+.card0{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid rgb(152, 150, 150);
+    
+}
+
+
+.input{
+    height: 80px;
+}
+.textinput{
+    height: 150px;
+}
+
+.button{
+    height: 60px;
+    background-color: rgb(108, 17, 111);
+    color: aliceblue;
+}
+.card2{
+    margin: 0px;
+}
+.image{
+    height: 582px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 38px;
+}
+.line{
+    height: 1px;
+    width: 45%;
+    background-color: rgb(119, 118, 118);
+    margin-top: 22px;
+}
+@media (max-width: 600px) {
+    .line {
+        width: 40%; /* Adjust the width for small screens */
+       margin-top: 18px;
+        
+    }
+}
+.or{
+    display: flex;
+    width: 10%;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 30px;
+}
+/* Media query for small screens */
+@media (max-width: 600px) {
+    .or {
+        width: 20%; 
+        font-size: 24px; 
+    }
+}
+::placeholder{
+    color: #000000;
+    opacity: 1;
+    font-weight: 300;
+}
+input,textarea{
+    padding: 10px 12px;
+    border: 1px solid lightslategray;
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(108, 17, 111);
+}
+input:focus,
+textarea:focus{
+    box-shadow: none !important;
+    outline: 2px solid rgb(108, 17, 111) !important;
+    outline-width: 0px;
+    background-color: #DDD3FA;   
+}
+.button:focus{
+    box-shadow: none;
+    outline-width: 0px;
+}
+
+.button:hover {
+    background-color: rgb(67, 11, 69);
+    transform: scale(1.05); /* Scales the button to 110% of its original size */
+    box-shadow: rgba(28, 28, 28, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.insta{
+border-radius: 10px;
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+
+}

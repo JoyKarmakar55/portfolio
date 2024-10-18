@@ -1,10 +1,10 @@
 import React from "react";
 import "./Projects.css";
 
-const Projects = () => {
+export const Projects = () => {
   return (
     <>
-      <div className="container-fluid projects text-center">
+      <div className="container-fluid projects text-center" id="project">
         <h1 className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
           PROJECTS
         </h1>
